@@ -11,8 +11,9 @@ class ComicController extends Controller
      */
     public function index()
     {
-        $comica = config('db.comics');
-        return view('comics.guest.index', compact('comics'));
+        
+        
+        return view('guest.comics.index', compact('comics'));
     }
 
     /**
