@@ -17,7 +17,7 @@
                                 <a class="nav-link my-active" href="{{ route('comics.index')}}">COMICS</a>
                               </li>
                               <li class="nav-item">
-                                <a class="nav-link" href="#">MOVIES</a>
+                                <a class="nav-link" href="{{ route('comics.create')}}">NEW</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link" href="#">TV</a>
