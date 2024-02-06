@@ -8,7 +8,7 @@
                     Aggiungi un nuovo fumetto:
                 </h1>
 
-                <form action="{{ route('guest.comics.store') }}" method="POST">
+                <form action="{{ route('comics.store') }}" method="POST">
                     @csrf
 
                     <div class="mb-3">
@@ -49,7 +49,7 @@
                     </div>
 
 
-                    <button type="submit" class="btn btn-primary">Aggiungi un nuovo mulino</button>
+                    <button type="submit" class="btn btn-primary">Aggiungi un nuovo fumetto</button>
                     <button type="reset"  class="btn btn-warning">Pulisci il form</button>
                 </form>
             </div>
