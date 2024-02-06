@@ -17,7 +17,7 @@ return new class extends Migration
             $table->text('description');
             $table->text('thumb');
             $table->text('price');
-            $table->string('series', 40);
+            $table->string('series', 80);
             $table->date('sale_date');
             $table->string('type', 40);
             $table->timestamps();
