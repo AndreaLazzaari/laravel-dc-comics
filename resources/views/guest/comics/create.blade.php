@@ -8,8 +8,8 @@
                     Aggiungi un nuovo fumetto:
                 </h1>
 
-                <form action="" method="">
-                    
+                <form action="{{ route('guest.comics.store') }}" method="POST">
+                    @csrf
 
                     <div class="mb-3">
                         <label for="title" class="form-label">
