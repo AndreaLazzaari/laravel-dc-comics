@@ -13,17 +13,19 @@ class ComicSeeder extends Seeder
      */
     public function run(): void
     {
-        $comics = config('comics.comic');
+        $comics = config('comics.comics');
 
         foreach ($comics as $comic) {
-            $newComic = new Comic();
-            $newComic->title = $comic['title'];
-            $newComic->description = $comic['description'];
-            $newComic->thumb = $comic['thumb'];
-            $newComic->series = $comic['series'];
-            $newComic->sale_date = $comic['sale_date'];
-            $newComic->type = $comic['type'];
-            $newComic->save();
+            // $newComic = new Comic();
+            // $newComic->title = $comic['title'];
+            // $newComic->description = $comic['description'];
+            // $newComic->thumb = $comic['thumb'];
+            // $newComic->series = $comic['series'];
+            // $newComic->sale_date = $comic['sale_date'];
+            // $newComic->type = $comic['type'];
+            // $newComic->save();
+
+            $newComic = Comic::create($comic);
         }
     }
 }
