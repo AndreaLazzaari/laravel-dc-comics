@@ -15,37 +15,37 @@
                         <label for="title" class="form-label">
                             Titolo del fumetto:
                         </label>
-                        <input type="text" name="title" id="title" class="form-control">
+                        <input type="text" name="title" id="title" class="form-control" value="{{ old('title')}}">
                     </div>
 
                     <div class="mb-3">
                         <label for="series" class="form-label">Serie del fumetto:</label>
-                        <input type="text" name="series" id="series" class="form-control">
+                        <input type="text" name="series" id="series" class="form-control" value="{{ old('series')}}">
                     </div>
 
                     <div class="mb-3">
                         <label for="price" class="form-label">Prezzo:</label>
-                        <input type="text" name="price" id="price" class="form-control">
+                        <input type="text" name="price" id="price" class="form-control" value="{{ old('price')}}">
                     </div>
 
                     <div class="mb-3">
                         <label for="description" class="form-label">Piccola descrizione:</label>
-                        <input type="text" name="description" id="description" class="form-control">
+                        <input type="text" name="description" id="description" class="form-control" value="{{ old('description')}}">
                     </div>
 
                     <div class="mb-3">
                         <label for="sale_date" class="form-label">Data di uscita:</label>
-                        <input type="text" name="sale_date" id="sale_date" class="form-control">
+                        <input type="text" name="sale_date" id="sale_date" class="form-control" value="{{ old('sale_date')}}">
                     </div>
 
                     <div class="mb-3">
                         <label for="type" class="form-label">Tipo di fumetto:</label>
-                        <input type="text" name="type" id="type" class="form-control">
+                        <input type="text" name="type" id="type" class="form-control" value="{{ old('type')}}">
                     </div>
 
                     <div class="mb-3">
                         <label for="thumb" class="form-label">URL immagine</label>
-                        <input type="text" name="thumb" id="thumb" class="form-control">
+                        <input type="text" name="thumb" id="thumb" class="form-control" value="{{ old('thumb')}}">
                     </div>
 
 
